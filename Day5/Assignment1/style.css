@@ -1,73 +1,34 @@
 * {
-    margin: 0px;
-}
-
-@media(max-width:998px) {
-    html {
-        font-size: 55%;
-    }
+    margin: 0;
 }
 
 .page-wrapper {
-    height: 40%;
-    width: 100%;
-}
-
-.top-bar {
-    background: black;
-    height: 25vh;
-    width: 100%;
-}
-
-.logo {
-    background-image: url('logo.png');
-    height: 20vh;
-    width: 22%;
-    float: left;
-    margin-left: 10%;
-}
-
-.nav-bar {
-    color: white;
-    float: left;
-    margin-left: 30%;
-    margin-top: 2%;
-}
-
-.buttom-bar {
-    height: 30px;
-    width: 100%;
-    background: orangered;
-}
-
-.mylist {
-    list-style: none;
-}
-
-.mylist li {
-    display: inline-block;
-    margin: 10px;
-}
-
-.buttom-list {
-    list-style: none;
-}
-
-.buttom-list li {
-    display: inline-block;
-    margin-left: 2.5%;
-}
-
-.last-bar {
-    height: 12vh;
-    width: 89%;
-    margin-left: 5%;
-    background-image: url('lastimage.gif');
-}
-
-.content {
-    height: 80h;
-    background: green;
-    color: yellow;
     border: 1px solid black;
+    height: 95vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.main-div {
+    border: 1px solid black;
+    height: 40vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.mybox {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.box {
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    background: greenyellow;
 }
