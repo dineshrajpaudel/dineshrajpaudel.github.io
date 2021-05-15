@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    border: 1px solid black;
+    height: 95vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.main-div {
+    border: 1px solid red;
+    height: 20vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.mybox1 {
+    border: 1px solid green;
+    height: 5vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.mybox2 {
+    border: 1px solid violet;
+    height: 5vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.box {
+    height: 3vh;
+    width: 80%;
+    margin-left: 10%;
+    background: greenyellow;
+    margin-top: 1%;
+}

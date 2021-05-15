@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    background-color: gray;
+    height: 250px;
+    width: 350px;
+}
+
+.page-top {
+    background-color: blue;
+    height: 250px;
+    width: 150px;
+    margin-left: 100px;
+}
+
+.page-second {
+    background-color: green;
+    height: 50px;
+    width: 150px;
+}
+
+.page-third {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    margin-top: 150px;
+}

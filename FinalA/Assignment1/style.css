@@ -1,0 +1,147 @@
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+                                        
+                                        .page-wrapper {
+                                            height: 90vh;
+                                            width: 72%;
+                                            margin: auto;
+                                            border: 1px solid black;
+                                            margin-top: 2%;
+                                        }
+                                        
+                                        .sidebar1 {
+                                            height: 89vh;
+                                            width: 15%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 2px;
+                                            margin-left: 6px;
+                                            float: left;
+                                        }
+                                        
+                                        .box1 {
+                                            height: 10vh;
+                                            width: 95%;
+                                            border: 1px solid black;
+                                            background: blue;
+                                            margin-top: 2px;
+                                            margin-left: 3px;
+                                            margin-top: 8px;
+                                        }
+                                        
+                                        .box2 {
+                                            height: 40vh;
+                                            width: 95%;
+                                            border: 1px solid black;
+                                            background: blue;
+                                            margin-top: 2px;
+                                            margin-left: 3px;
+                                            margin-top: 30%;
+                                        }
+                                        
+                                        .sidebar2 {
+                                            height: 89vh;
+                                            width: 81.5%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 2px;
+                                            margin-left: 170px;
+                                        }
+                                        
+                                        .topbar {
+                                            height: 8vh;
+                                            width: 98.5%;
+                                            border: 1px solid black;
+                                            background: blue;
+                                            margin-top: 8px;
+                                            margin-left: 5px;
+                                        }
+                                        
+                                        .logo {
+                                            height: 5vh;
+                                            width: 60%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 8px;
+                                            margin-left: 5px;
+                                            float: left;
+                                        }
+                                        
+                                        .signbar {
+                                            height: 5vh;
+                                            width: 35%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 8px;
+                                            margin-left: 28px;
+                                            float: left;
+                                        }
+                                        
+                                        .sign-A {
+                                            height: 4vh;
+                                            width: 60%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 2px;
+                                            margin-left: 8px;
+                                            float: left;
+                                        }
+                                        
+                                        .sign1 {
+                                            height: 3vh;
+                                            width: 30%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 2px;
+                                            margin-left: 8px;
+                                            float: left;
+                                        }
+                                        
+                                        .sign2 {
+                                            height: 3vh;
+                                            width: 55%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 2px;
+                                            margin-left: 8px;
+                                            float: left;
+                                        }
+                                        
+                                        .sign-B {
+                                            height: 4vh;
+                                            width: 30%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 2px;
+                                            margin-left: 14px;
+                                            float: left;
+                                        }
+                                        
+                                        .divbox {
+                                            height: 76.5vh;
+                                            width: 98.5%;
+                                            border: 1px solid black;
+                                            background: blue;
+                                            margin-top: 8px;
+                                            margin-left: 5px;
+                                        }
+                                        
+                                        .divbox1 {
+                                            height: 35vh;
+                                            width: 98%;
+                                            border: 1px solid black;
+                                            background: lightgray;
+                                            margin-top: 12px;
+                                            margin-left: 8px;
+                                        }
+                                        
+                                        .mybox {
+                                            height: 29vh;
+                                            width: 30%;
+                                            border: 1px solid black;
+                                            margin-top: 16px;
+                                            margin-left: 18px;
+                                            float: left;
+                                        }

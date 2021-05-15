@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+
+.page-wrapper {
+    height: 80vh;
+    width: 88%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.side-line {
+    border-right: 3px solid grey;
+    margin-right: 2px;
+}
+
+.hii {
+    font-size: 0;
+    height: 80vh;
+    width: 55%;
+    margin: auto;
+    background: burlywood;
+}
+
+.top-bar {
+    background: grey;
+    height: 50px;
+    width: 100%;
+}
+
+.mybox {
+    width: 150px;
+    height: 178px;
+    border: 1px solid black;
+    display: inline-block;
+    font: 0;
+    margin: 10px;
+    margin-left: 0;
+    background: grey;
+}
+
+.buttom-bar {
+    background: grey;
+    height: 50px;
+    width: 100%;
+    margin: 1px;
+}

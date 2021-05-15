@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    height: 98vh;
+    width: 98%;
+    border: 2px solid lightgrey;
+    background: white;
+    margin-left: 1%;
+}
+
+.main-div {
+    height: 94vh;
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.full-horizontal {
+    height: 16vh;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    background: lightgrey;
+}
+
+.full-horizontal p {
+    padding-top: 3%;
+}
+
+.content-bar {
+    height: 45vh;
+    width: 100%;
+    text-align: center;
+    background: lightgrey;
+}
+
+.content {
+    height: 45vh;
+    width: 20%;
+    border: 2px solid white;
+    text-align: center;
+    background: lightgrey;
+    float: left;
+}
+
+.content p {
+    padding-top: 45%;
+}
+
+.main-content {
+    height: 45vh;
+    width: 60%;
+    border: 2px solid white;
+    text-align: center;
+    background: lightgrey;
+    float: left;
+}
+
+.main-content p {
+    padding-top: 15%;
+}

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.page-top {
+    background-color: red;
+    height: 100px;
+    width: 350px;
+    margin-top: 262px;
+    margin-left: 508px;
+}

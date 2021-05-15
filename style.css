@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+}
+
+.day1 {
+    background: red;
+    color: white;
+}
+
+.day2 {
+    background: yellow;
+    color: black;
+}
+
+.day3 {
+    background: white;
+    color: green;
+}
+
+.day4 {
+    background: orangered;
+    color: black;
+}
+
+.day5 {
+    background: lightskyblue;
+    color: black;
+}
+
+.day6 {
+    background: yellow;
+    color: black;
+}
+
+.final {
+    background: lightgreen;
+    color: black;
+}

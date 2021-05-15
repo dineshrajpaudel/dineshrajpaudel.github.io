@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    background: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.side1bar {
+    height: 98vh;
+    width: 10%;
+    border: 1px solid grey;
+    float: left;
+}
+
+.nav1 li {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.side2bar {
+    height: 98vh;
+    width: 89.5%;
+    border: 1px solid grey;
+    margin-left: 10%;
+}
+
+.topbar {
+    border: 1px solid grey;
+    height: 10%;
+    width: 99%;
+}
+
+.logo {
+    background-image: url('download.png');
+    height: 56px;
+    width: 80px;
+    border: 1px solid grey;
+    float: left;
+}
+
+.search-bar {
+    border: 1px solid grey;
+    float: left;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.search-bar input {
+    height: 30px;
+    width: 400px;
+    border: 1px solid grey;
+    float: left;
+    background: black;
+    color: red;
+}
+
+.logobar {
+    height: 56px;
+    border: 1px solid grey;
+    float: left;
+    margin-left: 15%;
+}
+
+.logo-bar {
+    height: 56px;
+    width: 400px;
+    float: left;
+}
+
+.logo-bar li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 28%;
+    margin-top: 20px;
+}
+
+.signin {
+    background-image: url('signin.jpg');
+    height: 56px;
+    width: 50px;
+    margin-left: 95%;
+    border: 1px solid grey;
+}
+
+.nav2 {
+    border: 1px solid grey;
+    height: 8%;
+    width: 99%;
+    margin-top: 2px;
+}
+
+.nav2 li {
+    margin-left: 2px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 16px;
+}
+
+.contents {
+    border: 1px solid grey;
+    height: 80%;
+    width: 99%;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.mybox {
+    border: 1px solid grey;
+    height: 48%;
+    width: 30%;
+    margin-top: 8px;
+    margin-left: 8px;
+    float: left;
+}
+
+.video {
+    height: 80%;
+    width: 100%;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+.imagecontent {
+    height: 18%;
+    width: 20%;
+    border: 1px solid red;
+    border-radius: 20px;
+    float: left;
+    background-image: url('dinesh.jpg');
+}
+
+.boxcontent {
+    height: 18%;
+    width: 100%;
+}

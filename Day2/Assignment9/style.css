@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    background-color: violet;
+    height: 625px;
+    width: 1366px;
+}
+
+.page-top {
+    background-color: green;
+    height: 100px;
+    width: 1366px;
+}
+
+.page-second {
+    background-color: red;
+    height: 100px;
+    width: 1366px;
+    margin-top: 425px;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    border: 1px solid black;
+    height: 95vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.main-div {
+    border: 1px solid red;
+    height: 15vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.mybox1 {
+    border: 1px solid green;
+    height: 4vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.mybox2 {
+    border: 1px solid violet;
+    height: 4vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.box {
+    height: 3vh;
+    width: 80%;
+    margin-left: 10%;
+    background: greenyellow;
+    margin-top: 3px;
+}
+
+.main-div3 {
+    border: 1px solid red;
+    height: 55vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.mybox3 {
+    border: 1px solid green;
+    height: 52vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6px;
+}
+
+.box3 {
+    height: 49vh;
+    width: 80%;
+    margin-left: 10%;
+    background: greenyellow;
+    margin-top: 1%;
+}

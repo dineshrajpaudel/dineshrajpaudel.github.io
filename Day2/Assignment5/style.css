@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    background-color: black;
+    height: 625px;
+    width: 1366px;
+}
+
+.page-top {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin-left: 1266px;
+}
+
+.page-second {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 1166px;
+}
+
+.page-third {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-left: 1066px;
+}
+
+.page-fourth {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-left: 966px;
+}

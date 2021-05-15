@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+.black {
+    background-color: black;
+    height: 625px;
+    width: 1366px;
+}
+
+.red {
+    background-color: red;
+    height: 625px;
+    width: 1366px;
+}
+
+.green {
+    background-color: green;
+    height: 625px;
+    width: 1366px;
+}

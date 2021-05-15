@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    height: 99.5vh;
+    width: 99.5%;
+    background: lightgreen;
+    padding: top 100px;
+    border: 1px solid gray;
+}
+
+.center {
+    height: 30vh;
+    width: 75%;
+    background: lightgrey;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 15%;
+    border: 1px solid grey;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li {
+    width: 18%;
+    height: 20vh;
+    background: lightseagreen;
+    margin-left: 5.5%;
+}
