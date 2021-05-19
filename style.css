@@ -2,6 +2,13 @@
     margin: 0%;
 }
 
+.module1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin: left 200px;
+    border: 1px solid red;
+}
+
 .day1 {
     background: red;
     color: white;
@@ -35,4 +42,11 @@
 .final {
     background: lightgreen;
     color: black;
+}
+
+.module2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    border: 1px solid red;
+    float: left;
 }

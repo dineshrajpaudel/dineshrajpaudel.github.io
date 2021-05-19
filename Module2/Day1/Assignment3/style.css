@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    width: 99%;
+    height: 98vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.header-wrapper {
+    width: 99%;
+    height: 28vh;
+    margin: auto;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+}
+
+.top-header {
+    width: 99%;
+    height: 13vh;
+    margin: auto;
+    background: skyblue;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.top-header-container {
+    width: 50%;
+    height: 8vh;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.top-header-left {
+    width: 48%;
+    height: 5vh;
+    margin-top: 9px;
+    border: 1px solid black;
+    float: left;
+}
+
+.top-header-right {
+    width: 48%;
+    height: 5vh;
+    margin-top: 9px;
+    border: 1px solid black;
+    margin-left: 52%;
+}
+
+.buttom-header {
+    width: 99%;
+    height: 10vh;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 18px;
+}
+
+.buttom-header-container {
+    width: 50%;
+    height: 6vh;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.buttom-header-left {
+    width: 48%;
+    height: 3vh;
+    margin-top: 8px;
+    border: 1px solid black;
+    float: left;
+}
+
+.buttom-header-right {
+    width: 48%;
+    height: 3vh;
+    margin-top: 8px;
+    border: 1px solid black;
+    margin-left: 52%;
+}
+
+.body-wrapper {
+    width: 99%;
+    height: 53vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.body-container {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 8px;
+}
+
+.body-container-left {
+    width: 70%;
+    height: 47vh;
+    border: 1px solid black;
+    background: blue;
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+}
+
+.body-container-left-box1 {
+    width: 28%;
+    height: 44vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+}
+
+.body-container-left-box1-top {
+    width: 92%;
+    height: 20vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.body-container-left-box1-top1 {
+    width: 92%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.body-container-left-box1-buttom1 {
+    width: 92%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.body-container-left-box1-buttom {
+    width: 92%;
+    height: 20vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.body-container-left-box2 {
+    width: 69%;
+    height: 44vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+}
+
+.mybox1 {
+    width: 97%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mybox1 {
+    width: 97%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mybox2 {
+    width: 97%;
+    height: 7vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.boxes {
+    width: 97%;
+    height: 16.5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.box1 {
+    width: 97%;
+    height: 6vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.box2 {
+    width: 97%;
+    height: 6vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.mybox3 {
+    width: 97%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mybox4 {
+    width: 97%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.body-container-right {
+    width: 28%;
+    height: 47vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+}
+
+.footer-wrapper {
+    width: 99%;
+    height: 14vh;
+    margin: auto;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+}
+
+.footer-containner {
+    width: 50%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.body-container-right-box {
+    width: 90%;
+    height: 42vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.body-container-right-box1 {
+    width: 90%;
+    height: 40vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.body-container-right-box1-top {
+    width: 92%;
+    height: 5vh;
+    border: 1px solid black;
+    background: skyblue;
+    margin-top: 5px;
+    margin-left: 5px;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('gym.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo', cursive, sans-serif;
+}
+
+.page-wrapper {
+    color: white;
+    width: 1360px;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.logo-container {
+    width: 9.5%;
+    float: left;
+    margin: 10px;
+}
+
+.logo-wrapper {
+    width: 5%;
+}
+
+img {
+    height: 70px;
+}
+
+.content {
+    width: 300px;
+}
+
+.navigation-button-cointainer {
+    width: 85%;
+    margin: auto;
+    float: left;
+}
+
+.navigation-cointainer {
+    width: 75%;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 4%;
+    text-align: center;
+    margin: 10px;
+}
+
+.header-button-cointainer {
+    width: 19.5%;
+    margin-left: 5%;
+    float: left;
+    height: 20vh;
+}
+
+.header-button {
+    width: 55px;
+    padding: 10px 0;
+    background: lightgreen;
+    border: none;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-family: 'Baloo', cursive, sans-serif;
+}
+
+.header-button:hover {
+    background: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    cursor: pointer;
+    color: yellow;
+}
