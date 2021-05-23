@@ -5,13 +5,11 @@
 .module1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: left;
-    margin: left 200px;
-    border: 1px solid red;
 }
 
 .day1 {
     background: red;
-    color: white;
+    color: black;
 }
 
 .day2 {
@@ -39,7 +37,7 @@
     color: black;
 }
 
-.final {
+.Final {
     background: lightgreen;
     color: black;
 }

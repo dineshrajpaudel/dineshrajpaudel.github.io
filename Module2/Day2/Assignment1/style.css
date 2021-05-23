@@ -1,0 +1,802 @@
+* {
+    margin: 0%;
+    text-decoration: unset;
+}
+
+a {
+    color: unset;
+}
+
+a:hover {
+    color: rgb(45, 202, 202);
+}
+
+.page-wrapper {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrapper {
+    width: 100%;
+}
+
+.top-header {
+    background: rgb(126, 215, 232);
+    width: 100%;
+}
+
+.top-header-container {
+    width: 72%;
+    padding: 10px 0px 0px 0px;
+    margin: auto;
+}
+
+.top-header-left {
+    width: 65%;
+    padding: 2px 0px;
+    display: inline-block;
+}
+
+.tu-tangle {
+    ;
+    width: 20%;
+    height: 9vh;
+    float: left;
+    margin-right: 22%;
+}
+
+.search-box {
+    display: inline-block;
+    vertical-align: 100%;
+}
+
+.search-text {
+    background: rgb(201, 236, 244);
+    width: 270px;
+    vertical-align: bottom;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: unset;
+    font-size: 70%;
+}
+
+.button {
+    background: rgb(38, 81, 93);
+    border: unset;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 70%;
+    font-weight: bold;
+    color: white;
+}
+
+.button:hover {
+    background: rgb(59, 123, 141);
+}
+
+.top-header-right {
+    float: right;
+    vertical-align: top;
+    text-align: right;
+    font-size: 85%;
+}
+
+.top-header-right p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.bottom-header {
+    background: rgb(245, 245, 245);
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.bottom-header-container {
+    width: 72%;
+    margin: auto;
+}
+
+.bottom-header-left {
+    display: inline-block;
+}
+
+.bottom-header-left ul li {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.bottom-header-left ul li:first-child {
+    margin-left: -35px;
+    padding-left: 0%;
+}
+
+.bottom-header-right {
+    font-size: 70%;
+    float: right;
+}
+
+.invites {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.invites-image {
+    background-image: url("2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.invites-text {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.requests {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.requests-image {
+    background-image: url("3.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 21px;
+    display: inline-block;
+}
+
+.requests-text {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 2px;
+    font-weight: bold;
+    color: gray;
+}
+
+.body-wrapper {
+    width: 100%;
+}
+
+.body-container {
+    width: 72%;
+    height: 510px;
+    padding: 12px 0px;
+    margin: auto;
+}
+
+.body-container-left {
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+}
+
+.table-box {
+    background: rgb(245, 245, 245);
+    width: 26%;
+    height: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.table-box a:hover {
+    color: unset;
+}
+
+.table-box table {
+    border-spacing: unset;
+}
+
+.table-box table tr th {
+    background: rgb(47, 193, 218);
+    color: white;
+    padding: 10px 10px;
+    font-weight: normal;
+}
+
+.table-box table tr td {
+    background: rgb(245, 245, 245);
+    font-size: 70%;
+    font-weight: bold;
+    padding: 5px 10px;
+    padding-right: 43px;
+}
+
+.table-box table tr td:hover {
+    background: white;
+}
+
+.entries-box {
+    width: 72%;
+    float: right;
+}
+
+.entries-box h2 {
+    text-align: start;
+    margin-top: -7px;
+}
+
+.entry {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 3px;
+    border-bottom: 2px solid rgb(47, 193, 218);
+    overflow: hidden;
+}
+
+.entry-left {
+    background: rgb(245, 245, 245);
+    width: 49.85%;
+    display: inline-block;
+    padding-bottom: -2px;
+}
+
+.entry-right {
+    background: rgb(245, 245, 245);
+    width: 49.85%;
+    float: right;
+}
+
+.top-entry {
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+}
+
+.bottom-entry {
+    width: 100%;
+    font-size: 75%;
+    text-align: center;
+}
+
+.bottom-entry a:hover {
+    color: unset;
+}
+
+.button-click {
+    background: rgb(221, 221, 221);
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: -4px;
+    margin-right: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.button-click:hover {
+    background: green;
+    font-family: cursive, sans-serif;
+    cursor: pointer;
+    color: yellow;
+}
+
+div:focus {
+    background-color: rgb(47, 193, 218);
+}
+
+.person-entry {
+    width: 100%;
+    padding: 10px 0px 6px;
+    border-bottom: 1px ridge rgb(173, 168, 168);
+}
+
+. {
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-1 {
+    background-image: url("6.gif");
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-2 {
+    background-image: url("7.gif");
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-3 {
+    background-image: url("8.gif");
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-4 {
+    background-image: url("9.gif");
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-5 {
+    background-image: url("10.gif");
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.person-details {
+    vertical-align: top;
+    height: 60px;
+    display: inline-block;
+}
+
+.person-details p {
+    font-size: 67%;
+}
+
+.person-details a {
+    color: rgb(48, 176, 199);
+    font-weight: bold;
+}
+
+subscribe {
+    color: green;
+    font-weight: bold;
+}
+
+invite {
+    color: red;
+    font-weight: bolder;
+}
+
+.body-container-right {
+    background: rgb(245, 245, 245);
+    width: 18%;
+    height: 100%;
+    text-align: left;
+    float: right;
+}
+
+.body-container-right a:hover {
+    color: unset;
+}
+
+.body-container-right table {
+    border-spacing: unset;
+    width: 100%;
+}
+
+.body-container-right table tr th {
+    background: rgb(47, 193, 218);
+    color: white;
+    padding: 10px 10px;
+    font-weight: normal;
+}
+
+.body-container-right table tr td {
+    background: rgb(245, 245, 245);
+    font-size: 70%;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.body-container-right table tr td:hover {
+    background: white;
+}
+
+.foot-wrapper {
+    background: rgb(114, 114, 114);
+    width: 100%;
+    padding: 10px 0px;
+    vertical-align: bottom;
+}
+
+.foot-container {
+    width: 72%;
+    margin: auto;
+}
+
+.foot-left {
+    display: inline-block;
+}
+
+.foot-left ul li {
+    display: inline-block;
+    font-size: x-small;
+    padding: 0px 5px;
+    color: white;
+    display: ;
+}
+
+.foot-left ul li:first-child {
+    margin-left: -35px;
+}
+
+.foot-right {
+    font-size: x-small;
+    float: right;
+    color: white;
+    vertical-align: middle;
+    padding: 4px;
+    text-align: right;
+}
+
+@media only screen and (max-width:720px) {
+    .header-wrapper {
+        width: 100%;
+    }
+    .top-header {
+        background: rgb(126, 215, 232);
+        width: 100%;
+    }
+    .top-header-container {
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+        margin: auto;
+    }
+    .top-header-left {
+        width: 100%;
+        padding: 2px 0px;
+        display: inline-block;
+    }
+    .tu-tangle {
+        width: 30%;
+        height: 9vh;
+        margin-left: 22%;
+    }
+    .search-box {
+        display: inline-block;
+        float: left;
+        margin-left: 6%;
+    }
+    .search-text {
+        background: rgb(201, 236, 244);
+        width: 270px;
+        vertical-align: bottom;
+        padding: 5px 10px;
+        border-radius: 25px;
+        border: unset;
+        font-size: 70%;
+    }
+    .button {
+        background: rgb(38, 81, 93);
+        border: unset;
+        border-radius: 25px;
+        padding: 5px 10px;
+        font-size: 70%;
+        font-weight: bold;
+        color: white;
+    }
+    .button:hover {
+        background: rgb(59, 123, 141);
+    }
+    .top-header-right {
+        float: right;
+        vertical-align: top;
+        text-align: right;
+        font-size: 85%;
+        display: none;
+    }
+    .top-header-right p {
+        font-size: small;
+        font-weight: bold;
+    }
+    .bottom-header {
+        background: rgb(245, 245, 245);
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .bottom-header-container {
+        width: 72%;
+        margin: auto;
+    }
+    .bottom-header-left {
+        display: inline-block;
+    }
+    .bottom-header-left ul li {
+        display: inline-block;
+        font-size: 1%;
+        font-weight: 600;
+    }
+    .bottom-header-left ul li:first-child {
+        margin-left: -35px;
+        padding-left: 0%;
+    }
+    .bottom-header-right {
+        font-size: 70%;
+        float: right;
+        display: none;
+    }
+    .invites {
+        display: inline-block;
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+    .invites-image {
+        background-image: url("2.gif");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+    }
+    .invites-text {
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 2px;
+        font-weight: bold;
+    }
+    .requests {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .requests-image {
+        background-image: url("3.gif");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 22px;
+        height: 21px;
+        display: inline-block;
+    }
+    .requests-text {
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 2px;
+        font-weight: bold;
+        color: gray;
+    }
+    .body-wrapper {
+        width: 100%;
+        height: 125vh;
+    }
+    .body-container {
+        width: 100%;
+        padding: 12px 0px;
+        margin: auto;
+        height: 121vh;
+    }
+    .body-container-left {
+        width: 80%;
+        display: inline-block;
+    }
+    .table-box {
+        background: rgb(245, 245, 245);
+        width: 26%;
+        height: 100%;
+        text-align: left;
+        display: inline-block;
+    }
+    .table-box a:hover {
+        color: unset;
+    }
+    .table-box table {
+        border-spacing: unset;
+    }
+    .table-box table tr th {
+        background: rgb(47, 193, 218);
+        color: white;
+        padding: 10px 10px;
+        font-weight: normal;
+    }
+    .table-box table tr td {
+        background: rgb(245, 245, 245);
+        font-size: 70%;
+        font-weight: bold;
+        padding: 5px 10px;
+        padding-right: 43px;
+    }
+    .table-box table tr td:hover {
+        background: white;
+    }
+    .entries-box {
+        width: 72%;
+        float: right;
+    }
+    .entries-box h2 {
+        text-align: start;
+        margin-top: -7px;
+    }
+    .entry {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: 3px;
+        border-bottom: 2px solid rgb(47, 193, 218);
+        overflow: hidden;
+        height: 10vh;
+    }
+    .entry-left {
+        background: rgb(245, 245, 245);
+        width: 49.85%;
+        display: inline-block;
+        padding-bottom: -2px;
+    }
+    .entry-right {
+        background: rgb(245, 245, 245);
+        width: 49.85%;
+        float: right;
+    }
+    .top-entry {
+        width: 100%;
+        text-align: center;
+        padding: 6px;
+    }
+    .bottom-entry {
+        width: 100%;
+        font-size: 75%;
+        text-align: center;
+    }
+    .bottom-entry a:hover {
+        color: unset;
+    }
+    .button-click {
+        background: rgb(221, 221, 221);
+        width: 40%;
+        display: inline-block;
+        padding: 2px;
+        margin-right: 5px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .button-click:hover {
+        background: green;
+        font-family: cursive, sans-serif;
+        cursor: pointer;
+        color: yellow;
+    }
+    div:focus {
+        background-color: rgb(47, 193, 218);
+    }
+    .person-entry {
+        width: 100%;
+        padding: 10px 0px 6px;
+        border-bottom: 1px ridge rgb(173, 168, 168);
+    }
+    . {
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .person-1 {
+        background-image: url("6.gif");
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .person-2 {
+        background-image: url("7.gif");
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .person-3 {
+        background-image: url("8.gif");
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .person-4 {
+        background-image: url("9.gif");
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .person-5 {
+        background-image: url("10.gif");
+        width: 63px;
+        height: 63px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .person-details {
+        vertical-align: top;
+        height: 60px;
+        display: inline-block;
+    }
+    .person-details p {
+        font-size: 67%;
+    }
+    .person-details a {
+        color: rgb(48, 176, 199);
+        font-weight: bold;
+    }
+    subscribe {
+        color: green;
+        font-weight: bold;
+    }
+    invite {
+        color: red;
+        font-weight: bolder;
+    }
+    .body-container-right {
+        background: rgb(245, 245, 245);
+        width: 18%;
+        height: 100%;
+        text-align: left;
+        float: right;
+    }
+    .body-container-right a:hover {
+        color: unset;
+    }
+    .body-container-right table {
+        border-spacing: unset;
+        width: 100%;
+    }
+    .body-container-right table tr th {
+        background: rgb(47, 193, 218);
+        color: white;
+        padding: 10px 10px;
+        font-weight: normal;
+    }
+    .body-container-right table tr td {
+        background: rgb(245, 245, 245);
+        font-size: 70%;
+        font-weight: bold;
+        padding: 5px 10px;
+    }
+    .body-container-right table tr td:hover {
+        background: white;
+    }
+    .foot-wrapper {
+        background: rgb(114, 114, 114);
+        width: 100%;
+        padding: 10px 0px;
+        vertical-align: bottom;
+    }
+    .foot-container {
+        width: 72%;
+        margin: auto;
+    }
+    .foot-left {
+        display: inline-block;
+    }
+    .foot-left ul li {
+        display: inline-block;
+        font-size: x-small;
+        padding: 0px 5px;
+        color: white;
+        display: ;
+    }
+    .foot-left ul li:first-child {
+        margin-left: -35px;
+    }
+    .foot-right {
+        font-size: x-small;
+        float: right;
+        color: white;
+        vertical-align: middle;
+        padding: 4px;
+        text-align: right;
+    }
+}

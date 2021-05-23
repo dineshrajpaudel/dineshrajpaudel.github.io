@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    width: 98%;
+    height: 99vh;
+    border: 2px solid grey;
+    margin: auto;
+}
+
+.header-wrapper {
+    background: darkviolet;
+    color: white;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-left: 8px;
+    height: 6vh;
+}
+
+.Top-wrapper {
+    width: 100%;
+}
+
+.Top-wrapper-content {
+    width: 80%;
+    background: deepskyblue;
+    margin-top: 5px;
+    margin-left: 9%;
+    padding: 9px;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+}
+
+.body-wrapper {
+    width: 90%;
+    background: deepskyblue;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+
+.buttom-wrapper {
+    width: 91%;
+    background: blue;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    margin-top: 1%;
+}
