@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+.top {
+    width: 98%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.body {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.b {
+    width: 15%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.c {
+    width: 40%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.d {
+    width: 15%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttom {
+    margin-top: 10px;
+    border: 2px solid deepskyblue;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top {
+        width: 92%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .body {
+        padding-top: 10px;
+        width: 92%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .b {
+        display: none;
+    }
+    .c {
+        width: 79%;
+        border: 2px solid deepskyblue;
+        padding: 40px;
+        text-align: center;
+    }
+    .d {
+        width: 100%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .buttom {
+        margin-top: 10px;
+        border: 2px solid deepskyblue;
+        width: 92%;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}

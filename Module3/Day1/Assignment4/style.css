@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+.top {
+    width: 98%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.body {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.b {
+    width: 56%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.e {
+    width: 40%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttom {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.c {
+    width: 40%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.d {
+    width: 56%;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .top {
+        width: 92%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .body {
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .b {
+        width: 92%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+    }
+    .e {
+        margin-top: 10px;
+        width: 92%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+    }
+    .buttom {
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .c {
+        width: 25%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+    }
+    .d {
+        width: 55%;
+        border: 2px solid deepskyblue;
+        padding: 10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,34 @@
+    * {
+    margin: 0;
+}
+
+.page-wrapper {
+    background: lightgray;
+}
+
+.navbar {
+    width: 50%;
+    border: 2px solid deepskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    background: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 50%;
+        border: 2px solid deepskyblue;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content {
+        padding: 57px;
+    }

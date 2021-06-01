@@ -1,86 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ <div class="module3">
 
-body {
-    background-image: url('gym.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Baloo', cursive, sans-serif;
-}
+                <table border="3">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Module3</th>
 
-.page-wrapper {
-    color: white;
-    width: 1360px;
-}
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Demo</th>
+                            <th>Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="day1">
+                            <td>M3D1A1</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day1/Assignment1/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day1/Assignment1/index.html">Code</a></td>
+                        </tr>
+                        <tr class="day1">
+                            <td>M3D1A2</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day1/Assignment2/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day1/Assignment2/index.html">Code</a></td>
+                        </tr>
+                        <tr class="day1">
+                            <td>M3D1A3</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day1/Assignment3/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day1/Assignment3/index.html">Code</a></td>
+                        </tr>
+                        <tr class="day1">
+                            <td>M2D1A4</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day1/Assignment4/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day1/Assignment4/index.html">Code</a></td>
+                        </tr>
+                        <tr class="day1">
+                            <td>M3D1A5</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day1/Assignment5/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day1/Assignment5/index.html">Code</a></td>
+                        </tr>
+                        <tr class="day1">
+                            <td>M3D1A6</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day1/Assignment6/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day1/Assignment6/index.html">Code</a></td>
+                        </tr>
 
-.header-container {
-    width: 100%;
-}
+                        <tr class="day2">
+                            <td>M3D2A1</td>
+                            <td><a href="https://dineshrajpaudel.github.io/Module3/Day2/Assignment1/index.html">Demo</a></td>
+                            <td><a href="https://github.com/dineshrajpaudel/dineshrajpaudel.github.io/blob/master/Module3/Day2/Assignment1/index.html">Code</a></td>
+                        </tr>
 
-.logo-container {
-    width: 9.5%;
-    float: left;
-    margin: 10px;
-}
-
-.logo-wrapper {
-    width: 5%;
-}
-
-img {
-    height: 70px;
-}
-
-.content {
-    width: 300px;
-}
-
-.navigation-button-cointainer {
-    width: 85%;
-    margin: auto;
-    float: left;
-}
-
-.navigation-cointainer {
-    width: 75%;
-    margin: auto;
-    float: left;
-    text-align: center;
-}
-
-ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 4%;
-    text-align: center;
-    margin: 10px;
-}
-
-.header-button-cointainer {
-    width: 19.5%;
-    margin-left: 5%;
-    float: left;
-    height: 20vh;
-}
-
-.header-button {
-    width: 55px;
-    padding: 10px 0;
-    background: lightgreen;
-    border: none;
-    display: inline-block;
-    border-radius: 30px;
-    margin: 10px;
-    margin-left: 40px;
-    cursor: pointer;
-    font-family: 'Baloo', cursive, sans-serif;
-}
-
-.header-button:hover {
-    background: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
-    cursor: pointer;
-    color: yellow;
-}
+                    </tbody>
+                </table>
+                </div>

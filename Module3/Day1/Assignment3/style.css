@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.page-wrapper {
+    background: lightgray;
+}
+
+.content {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-box {
+    border: 2px solid deepskyblue;
+    background: white;
+    padding: 30px;
+}
+
+.right-box {
+    border: 2px solid deepskyblue;
+    background: white;
+    padding: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 20%;
+        ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .right-box {
+        border: 2px solid deepskyblue;
+        background: white;
+        padding: 80px;
+        margin-top: 10px;
+    }
+}
