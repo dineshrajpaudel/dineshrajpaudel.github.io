@@ -4,26 +4,36 @@ const My_Input = document.createElement('input');
 Page_Wrapper.appendChild(My_Input);
 
 
-
 const My_Button = document.createElement('button');
 Page_Wrapper.appendChild(My_Button);
 My_Button.innerHTML = "PRINT";
+
 const ul = document.createElement('ul');
 Page_Wrapper.appendChild(ul);
 
 
+let number = 0;
+const My_Object = {};
 
 My_Button.addEventListener('click', print);
 
 function print(event) {
-    
+    number++;
     const Input = document.querySelector('input');
     const ul = document.querySelector('ul');
     const li = document.createElement('li');
+    const Button = document.createElement('button');
+    const Br = document.createElement('br');
+
+
+
 
     li.innerHTML = Input.value;
     ul.appendChild(li);
- 
-    console.log(li);;
+    li.appendChild(Br);
+    li.appendChild(Button);
+    Button.innerHTML = "Delete";
+    My_Object[number] = Input.value;
+    console.log(My_Object);
 
 }
