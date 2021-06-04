@@ -37,6 +37,7 @@ function T_shirt(name, discount, price, PAD) {
         PAD = price - discount;
 
     console.log("Name:" + "T-shirt" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    alert("Name:" + "T-shirt" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
 }
 
 
@@ -48,6 +49,7 @@ function Pant(name, discount, price, PAD) {
         PAD = price - discount;
 
     console.log("Name:" + "Pant" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    alert("Name:" + "Pant" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
 }
 
 function Ball(name, discount, price, PAD) {
@@ -58,6 +60,7 @@ function Ball(name, discount, price, PAD) {
         PAD = price - discount;
 
     console.log("Name:" + "Ball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    alert("Name:" + "Ball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
 }
 
 function Volleyball(name, discount, price, PAD) {
@@ -68,4 +71,5 @@ function Volleyball(name, discount, price, PAD) {
         PAD = price - discount;
 
     console.log("Name:" + "Volleyball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    alert("Name:" + "Volleyball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
 }
