@@ -48,29 +48,29 @@ function Pant(name, discount, price, PRICEAFTERDISCOUNT) {
         PRICEAFTERDISCOUNT = price - discount;
 
     console.log("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
-    alert("Name:" + "Pant" + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
+    alert("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
 }
 
 function Ball(name, discount, price, PRICEAFTERDISCOUNT) {
 
-    var name = Ball,
+    var name = "Ball",
         price = 677,
         discount = price * 2 / 100,
 
         PRICEAFTERDISCOUNT = price - discount;
 
     console.log("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
-    alert("Name:" + "Ball" + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
+    alert("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
 }
 
 function Volleyball(name, discount, price, PRICEAFTERDISCOUNT) {
 
-    var name = Volleyball,
-        price = 500,
+    var name = "Volleyball",
+        price = 600,
         discount = price * 0 / 100,
 
         PRICEAFTERDISCOUNT = price - discount;
 
     console.log("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
-    alert("Name:" + "Volleyball" + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
+    alert("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PRICEAFTERDISCOUNT :" + PRICEAFTERDISCOUNT);
 }
