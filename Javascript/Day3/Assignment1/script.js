@@ -31,45 +31,52 @@ My_Button4.addEventListener('click', Volleyball);
 
 function T_shirt(name, discount, price, PAD) {
 
-    var name, price = 500,
+    var name = "T-shirt",
+        price = 500,
         discount = price * 20 / 100,
 
         PAD = price - discount;
 
-    console.log("Name:" + "T-shirt" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-    alert("Name:" + "T-shirt" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-}
+    console.log("Name:" + "name + "
+        Discount: " + discount + "
+        Price: " + price + "
+        PAD: " + PAD);
+        alert("Name:" + "T-shirt" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    }
 
 
-function Pant(name, discount, price, PAD) {
+    function Pant(name, discount, price, PAD) {
 
-    var name, price = 600,
-        discount = price * 30 / 100,
+        var name = "pant",
+            price = 600,
+            discount = price * 30 / 100,
 
-        PAD = price - discount;
+            PAD = price - discount;
 
-    console.log("Name:" + "Pant" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-    alert("Name:" + "Pant" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-}
+        console.log("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+        alert("Name:" + "Pant" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    }
 
-function Ball(name, discount, price, PAD) {
+    function Ball(name, discount, price, PAD) {
 
-    var name, price = 677,
-        discount = price * 2 / 100,
+        var name = Ball,
+            price = 677,
+            discount = price * 2 / 100,
 
-        PAD = price - discount;
+            PAD = price - discount;
 
-    console.log("Name:" + "Ball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-    alert("Name:" + "Ball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-}
+        console.log("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+        alert("Name:" + "Ball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    }
 
-function Volleyball(name, discount, price, PAD) {
+    function Volleyball(name, discount, price, PAD) {
 
-    var name, price = 500,
-        discount = price * 0 / 100,
+        var name = Volleyball,
+            price = 500,
+            discount = price * 0 / 100,
 
-        PAD = price - discount;
+            PAD = price - discount;
 
-    console.log("Name:" + "Volleyball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-    alert("Name:" + "Volleyball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
-}
+        console.log("Name:" + name + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+        alert("Name:" + "Volleyball" + "  Discount:" + discount + "    Price:" + price + "    PAD :" + PAD);
+    }
