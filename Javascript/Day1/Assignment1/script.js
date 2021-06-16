@@ -16,14 +16,14 @@ Page_Wrapper.appendChild(ul);
 My_Button.addEventListener('click', print);
 
 function print(event) {
-    
+
     const Input = document.querySelector('input');
     const ul = document.querySelector('ul');
     const li = document.createElement('li');
 
     li.innerHTML = Input.value;
     ul.appendChild(li);
- 
+
     console.log(li);;
 
 }
