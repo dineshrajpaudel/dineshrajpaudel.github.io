@@ -53,3 +53,7 @@
     padding: 5px;
     margin-top: 1%;
 }
+
+button:hover {
+    background: rgb(59, 123, 141);
+}

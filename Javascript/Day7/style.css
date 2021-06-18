@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: orange;
+}
+
+.PageWrapper {
+    width: 100%;
+}
+
+input {
+    width: 25%;
+    margin-left: 30%;
+    border-radius: 100px;
+    height: 25px;
+    text-decoration: none;
+    margin-top: 5%;
+    border: unset;
+}
+
+button {
+    width: 10%;
+    padding: 5px;
+    background: rgb(131, 255, 127);
+    border-radius: 100px;
+    border: unset;
+    margin-left: 20px;
+}
+
+button:hover {
+    background: rgb(59, 123, 141);
+}
+
+li {
+    width: 25%;
+    margin-left: 30%;
+    border-radius: 100px;
+    height: 35px;
+    text-decoration: none;
+    margin-top: 5%;
+    border: unset;
+    background: white;
+    list-style-type: none;
+    padding: 5px 10px;
+}

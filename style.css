@@ -33,8 +33,28 @@
 }
 
 .day6 {
-    background: yellow;
+    background: chartreuse;
+    color: red;
+}
+
+.day7 {
+    background: darkcyan;
+    color: white;
+}
+
+.day8 {
+    background: darkorchid;
+    color: white;
+}
+
+.day9 {
+    background: fuchsia;
     color: black;
+}
+
+.day10 {
+    background: navy;
+    color: white;
 }
 
 .Final {
