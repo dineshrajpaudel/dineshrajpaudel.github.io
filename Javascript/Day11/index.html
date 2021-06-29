@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="add-book">Add Book</div>
+        <div class="form-container">
+            <form class="form-control">
+                <div class=" form-data ">
+                    <label for="title ">Title:</label>
+                    <input type="text " id="title">
+                </div>
+                <div class=" form-data ">
+                    <label for="author ">Author:</label>
+                    <input type="text " id="author">
+                </div>
+                <div class="form-data ">
+                    <label for="isbn ">ISBN#:</label>
+                    <input type="text " id="isbn">
+                </div>
+                <div class="form-data ">
+                    <label for="submit "></label>
+                    <button class="btn-b">SUBMIT</button>
+                </div>
+            </form>
+
+            <div class="table-data-container ">
+                <table class="table-data " cellspacing=0>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>ISBN#</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="book-data"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript " src="script.js "></script>
+</body>
+
+</html>
