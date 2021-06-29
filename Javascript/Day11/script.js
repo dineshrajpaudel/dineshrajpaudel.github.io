@@ -1,3 +1,4 @@
+//class Define
 class AddBook {
     constructor(title, author, isbn) {
         this.title = title;
@@ -5,16 +6,10 @@ class AddBook {
         this.isbn = isbn;
     }
 }
-let list;
-const form = document.querySelector('.btn-b');
-form.addEventListener('click', handleFormSubmit);
-
-function handleFormSubmit(event) {
-    let title = document.querySelector('#title');
-    let author = document.querySelector('#author');
-    let isbn = document.querySelector('#isbn');
-    const book = new AddBook(title, author, isbn);
-    event.preventDefault();
+//UI decleration
+function UI() {}
+//prototype
+UI.prototype.addBook = function(book) {
     const list = document.querySelector('#book-data');
     const row = document.createElement('tr');
     row.innerHTML = `<td>${book.title.value}</td>
@@ -29,4 +24,18 @@ function handleFormSubmit(event) {
     title.value = "  ";
     author.value = "  ";
     isbn.value = "  ";
+}
+
+//add event listeners
+const form = document.querySelector('.btn-b');
+form.addEventListener('click', handleFormSubmit);
+
+function handleFormSubmit(event) {
+    let title = document.querySelector('#title');
+    let author = document.querySelector('#author');
+    let isbn = document.querySelector('#isbn');
+    const book = new AddBook(title, author, isbn);
+    event.preventDefault();
+    const ui = new UI();
+    ui.addBook(book);
 }
