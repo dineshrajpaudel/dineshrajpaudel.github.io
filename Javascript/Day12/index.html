@@ -11,22 +11,14 @@
 
 <body>
     <div class="container">
-    	   <div class="alert">
+        <div class="alert">
         </div>
-        <div class="add-book">Add Book</div>
+        <div class="add-book">To-Do-List</div>
         <div class="form-container">
             <form class="form-control">
                 <div class=" form-data ">
-                    <label for="title ">Title:</label>
+                    <label for="title "></label>
                     <input type="text " id="title">
-                </div>
-                <div class=" form-data ">
-                    <label for="author ">Author:</label>
-                    <input type="text " id="author">
-                </div>
-                <div class="form-data ">
-                    <label for="isbn ">ISBN#:</label>
-                    <input type="text " id="isbn">
                 </div>
                 <div class="form-data ">
                     <label for="submit "></label>
@@ -38,10 +30,11 @@
                 <table class="table-data " cellspacing=0>
                     <thead>
                         <tr>
-                            <th>Title</th>
-                            <th>Author</th>
-                            <th>ISBN#</th>
-                            <th></th>
+                            <th>S.N</th>
+                            <th>Information</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+
                         </tr>
                     </thead>
                     <tbody id="book-list"></tbody>
@@ -49,7 +42,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript " src="script.js "></script>
+    <script type="text/javascript " src="script.js"></script>
 </body>
 
 </html>
